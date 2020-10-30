@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs)
         MsgBox("I am how much energy you have so don't let it go to waste")
     End Sub
 
@@ -35,6 +35,10 @@
         If result = vbOK Then
             Dim form2 = New Form2()
             form2.Show()
+            Timer2.Stop()
+            Me.Hide()
+            Timer3.Stop()
+            Timer1.Stop()
         End If
     End Sub
 
