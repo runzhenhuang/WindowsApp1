@@ -37,9 +37,9 @@ Partial Class Form2
         'Button1
         '
         Me.Button1.Enabled = False
-        Me.Button1.Location = New System.Drawing.Point(12, 529)
+        Me.Button1.Location = New System.Drawing.Point(-7, 525)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(354, 304)
+        Me.Button1.Size = New System.Drawing.Size(373, 313)
         Me.Button1.TabIndex = 0
         Me.Button1.TabStop = False
         Me.Button1.UseVisualStyleBackColor = True
@@ -47,7 +47,7 @@ Partial Class Form2
         'Button2
         '
         Me.Button2.Enabled = False
-        Me.Button2.Location = New System.Drawing.Point(489, 433)
+        Me.Button2.Location = New System.Drawing.Point(466, 431)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(81, 66)
         Me.Button2.TabIndex = 1
@@ -89,7 +89,7 @@ Partial Class Form2
         Me.PictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.InitialImage = CType(resources.GetObject("PictureBox1.InitialImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(193, 433)
+        Me.PictureBox1.Location = New System.Drawing.Point(9, 431)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(70, 95)
